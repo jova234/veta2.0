@@ -47,22 +47,22 @@
         <div class="form-row" id="formulario">
             <div class="col-md-6 mb-3">
                 <label for="validationDefault01">Nombres *</label>
-                <input type="text" class="form-control" id="validationDefault01" required>
+                <input type="text" class="form-control" id="nombre" required>
             </div>
             <div class="col-md-6 mb-3">
                 <label for="validationDefault02">Apellidos *</label>
-                <input type="text" class="form-control" id="validationDefault02" required>
+                <input type="text" class="form-control" id="apellido" required>
             </div>
         </div>
         <div class="form-row">
             <div class="col-md-6 mb-3">
                 <label for="validationDefault03">Direccion completa *</label>
-                <input type="text" class="form-control" id="validationDefault03" required>
+                <input type="text" class="form-control" id="direccion" required>
             </div>
             <div class="col-md-3 mb-3">
                 <label for="validationDefault04">Estado</label>
-                <select class="custom-select" id="validationDefault04" required>
-                    <option selected disabled value="">Selecione...</option>
+                <select class="custom-select" id="estado" required>
+                    <option selected disabled value="" id="opciones">Selecione...</option>
                     <option>Estado de Mexico</option>
                     <option>CDMX</option>
                     <option>Puebla</option>
@@ -73,12 +73,12 @@
             </div>
             <div class="col-md-3 mb-3">
                 <label for="validationDefault05">Delegacion o municipio</label>
-                <input type="text" class="form-control" id="validationDefault05" required>
+                <input type="text" class="form-control" id="municipio" required>
             </div>
             <div class="col-md-3 mb-3">
-                <label for="validationDefault04">Edada *</label>
-                <select class="custom-select" id="validationDefault04" required>
-                    <option selected disabled value="">Selecione...</option>
+                <label for="validationDefault04">Edad *</label>
+                <select class="custom-select" id="edad" required>
+                    <option selected disabled value="" id="edades_option">Selecione...</option>
                     <option>18-20</option>
                     <option>20-23</option>
                     <option>24-27</option>
@@ -89,7 +89,7 @@
             </div>
             <div class="col-md-6 mb-3">
                 <label for="validationDefault02">Direccion de punto de entrega *</label>
-                <input type="text" class="form-control" id="validationDefault02" required>
+                <input type="text" class="form-control" id="direccion_entrega" required>
             </div>
         </div>
         <div class="form-group">
@@ -100,7 +100,7 @@
                 </label>
             </div>
         </div>
-        <button class="btn btn-primary" type="submit">Enviar..</button>
+        <button class="btn btn-primary" type="submit" id="enviar">Enviar..</button>
     </form>
 
     <div class="bg-white">

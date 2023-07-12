@@ -55,3 +55,13 @@ function verProducto() {
 		// Manejo del error
 	}
 }
+
+function registar() {
+	const formulario = document.getElementById('enviar');
+
+	if (formulario) {
+		alert("Su registro fue enviado correctamente");
+	} else {
+		alert("Su registro no se realizo vorrectamente");
+	}
+}
