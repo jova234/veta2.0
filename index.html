@@ -40,28 +40,28 @@
             </form>
         </div>
     </nav>
-    <form class="col-md-12 mb-3 p-3 mb-2 bg-secondary text-white">
+    <form class="col-md-12 mb-3 p-3 mb-2 bg-secondary text-white" method="post" action="php/formalulario.php">
         <div>
             <h2 class="text-center mb-2">Registrate</h2>
         </div>
         <div class="form-row" id="formulario">
             <div class="col-md-6 mb-3">
-                <label for="validationDefault01">Nombres *</label>
-                <input type="text" class="form-control" id="validationDefault01" required>
+                <label>Nombres *</label>
+                <input type="text" class="form-control" id="nombre" required>
             </div>
             <div class="col-md-6 mb-3">
-                <label for="validationDefault02">Apellidos *</label>
-                <input type="text" class="form-control" id="validationDefault02" required>
+                <label>Apellidos *</label>
+                <input type="text" class="form-control" id="apellido" required>
             </div>
         </div>
         <div class="form-row">
             <div class="col-md-6 mb-3">
-                <label for="validationDefault03">Direccion completa *</label>
-                <input type="text" class="form-control" id="validationDefault03" required>
+                <label>Direccion completa *</label>
+                <input type="text" class="form-control" id="dirccion" required>
             </div>
             <div class="col-md-3 mb-3">
-                <label for="validationDefault04">Estado</label>
-                <select class="custom-select" id="validationDefault04" required>
+                <label>Estado</label>
+                <select class="custom-select" id="estado" required>
                     <option selected disabled value="">Selecione...</option>
                     <option>Estado de Mexico</option>
                     <option>CDMX</option>
@@ -72,12 +72,12 @@
                 </select>
             </div>
             <div class="col-md-3 mb-3">
-                <label for="validationDefault05">Delegacion o municipio</label>
-                <input type="text" class="form-control" id="validationDefault05" required>
+                <label>Delegacion o municipio</label>
+                <input type="text" class="form-control" id="delegacion" required>
             </div>
             <div class="col-md-3 mb-3">
-                <label for="validationDefault04">Edada *</label>
-                <select class="custom-select" id="validationDefault04" required>
+                <label>Edada *</label>
+                <select class="custom-select" id="edad" required>
                     <option selected disabled value="">Selecione...</option>
                     <option>18-20</option>
                     <option>20-23</option>
@@ -88,8 +88,8 @@
                 </select>
             </div>
             <div class="col-md-6 mb-3">
-                <label for="validationDefault02">Direccion de punto de entrega *</label>
-                <input type="text" class="form-control" id="validationDefault02" required>
+                <label>Direccion de punto de entrega *</label>
+                <input type="text" class="form-control" id="direccion_punto_entrega" required>
             </div>
         </div>
         <div class="form-group">
