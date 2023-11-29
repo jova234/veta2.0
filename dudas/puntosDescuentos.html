@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../stayli/contador.css">
     <title>Flores!!</title>
 </head>
 <header>
@@ -45,8 +46,19 @@
         <a href="descuentos.html"><img src="../imagenes/discount.png" class="rounded-circle" alt="descuentos"></a>
     </div>
 
-    <div id="contador" style="text-align: center; font-size: 24px;">0</div>
+    <div id="contador-container">
+        <div id="contador">0</div>
+    </div>
 
+    <!-- Contenedor de la gráfica -->
+    <div class="grafica-container">
+        <div class="grafica">
+            <!-- Coloca tus barras de gráfica aquí -->
+            <div class="grafica-barra-compras" style="height: 50%;">Compras</div>
+            <div class="grafica-barra-exitosas" style="height: 30%;">Exitosas</div>
+            <div class="grafica-barra-canceladas" style="height: 20%;">Canceladas</div>
+        </div>
+    </div>
     <script src="../javascrip/puntosDescuentos.js"></script>
 
     <div class="bg-white">
@@ -68,7 +80,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="social-icons d-flex justify-content-around mb-2">
-                        <a href="https://es-la.facebook.com/"><img src="../imagenes/facebook_ping.png" alt="facebook"></a>
+                        <a href="https://es-la.facebook.com/"><img src="../imagenes/facebook_ping.png"
+                                alt="facebook"></a>
                         <a href="https://www.instagram.com/"><img src="../imagenes/instagram.png" alt="instagram"></a>
                         <a href="https://twitter.com/"><img src="../imagenes/twitter.png" alt="twitter"></a>
                     </div>
